@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .nav a{
+            /* 转换为行内块元素 */
+            display: inline-block; 
+            width: 120px;
+            height: 58px;
+            background-color: pink;
+            /* 文本水平居中 */
+            text-align: center;
+            /* 行高，和height一样则居中 */
+            line-height: 48px;
+            /* 字体颜色 */
+            color: #fff;
+            /* 去除下划线 */
+            text-decoration: none;
+        }
+
+        .nav .bg1 {
+            background: url(../img/bg1.png) no-repeat ;
+        }
+
+        .nav .bg1:hover {
+            background-image: url(../img/bg4.png);
+        }
+
+        .nav .bg2 {
+            background: url(../img/bg2.png) no-repeat ;
+        }
+
+        .nav .bg2:hover {
+            background-image: url(../img/bg8.png);
+        }
+
+        .nav .bg3 {
+            background: url(../img/bg3.png) no-repeat ;
+        }
+
+        .nav .bg3:hover {
+            background-image: url(../img/bg1.png);
+        }
+
+        .nav .bg4 {
+            background: url(../img/bg4.png) no-repeat ;
+        }
+
+        .nav .bg4:hover {
+            background-image: url(../img/bg6.png);
+        }
+
+        .nav .bg5 {
+            background: url(../img/bg5.png) no-repeat ;
+        }
+
+        .nav .bg5:hover {
+            background-image: url(../img/bg3.png);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <a href="#" class="bg1">五彩导航</a>
+        <a href="#" class="bg2">五彩导航</a>
+        <a href="#" class="bg3">五彩导航</a>
+        <a href="#" class="bg4">五彩导航</a>
+        <a href="#" class="bg5">五彩导航</a>
+    </div>
+</body>
+</html>
