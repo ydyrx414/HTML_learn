@@ -26,7 +26,8 @@
         } 
         /* 使图片和盒子一样大 */
         .box img {
-            width: 100%;
+            width: 298px;
+            height: 230px;
         }
         /* 评论模块 */
         .review {
@@ -36,12 +37,45 @@
             padding: 0 28px;
             margin-top: 30px;
         }
+
+        .appraise {
+            font-size: 12px;
+            color: #b0b0b0;
+            margin-top: 20px;
+            padding: 0 28px;
+        }
+        
+        .info {
+            font-size: 14px;
+            margin-top: 15px;
+            padding:  0 28px;
+        }
+
+
+        .info h4 {
+            display: inline-block;/*转为行内块元素*/
+            font-weight: 400;/*取消加粗*/
+        }
+
+        .info span {
+            color: #ff6700;
+        }
+
+        .info em {
+            font-style: normal;
+        }
     </style>
 </head>
 <body>
     <div class="box">
         <img src="../img/1.jpg" alt="">
         <p class="review">好评好评好评好评好评好评好评好评好评好评好评好评好评好评</p>
+        <div class="appraise">来自于d21213132的评论</div>
+        <div class="info">
+            <h4> Redmi AirDots真无线....... </h4>
+            <em>|</em>/*倾斜标签*/
+            <span> 99.9元</span>
+        </div>
     </div>
 </body>
 </html>
